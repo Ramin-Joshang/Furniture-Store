@@ -357,3 +357,46 @@
 
 
 /* sofa */
+
+
+/* counters */
+
+.counters {
+    width: 100%;
+    height: 400px;
+    padding: 50px 0;
+    background-color: #9AC0FC;
+    display: flex;
+    align-items: center;
+}
+
+.counters .counter-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-content .counter-item {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-item span {
+    font-size: 45px;
+}
+
+.counter-item p {
+    font-size: 25px;
+}
+
+.counter-item h5 {
+    font-size: 20px;
+}
+
+
+/* counters */

@@ -139,10 +139,51 @@
         </section>
     </section>
     <!-- End sofa section -->
+    <!-- Start counter section -->
+    <section class="counters">
+        <section class="container">
+            <section class="counter-content">
+                <section class="counter-item">
+                    <span><i class="fa fa-archive" aria-hidden="true"></i></span>
+                    <p class="counter-res">500</p>
+                    <h5>محصولات</h5>
+                </section>
+                <section class="counter-item">
+                    <span><i class="fa fa-truck" aria-hidden="true"></i></span>
+                    <p class="counter-res">2000</p>
+                    <h5>مشتری</h5>
+                </section>
+                <section class="counter-item">
+                    <span><i class="fa fa-users" aria-hidden="true"></i></span>
+                    <p class="counter-res">7500</p>
+                    <h5>اعضا</h5>
+                </section>
+                <section class="counter-item">
+                    <span><i class="fa fa-credit-card" aria-hidden="true"></i></span>
+                    <p class="counter-res">9000</p>
+                    <h5>سفارش</h5>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!-- End counter section -->
 </body>
 <!-- Custom script -->
 <script src="js/script.js"></script>
+<!-- JQuery script -->
+<script src="js/jquery-3.6.0.min.js"></script>
+<!-- Counter script -->
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 <!-- Font awesome -->
 <script src="js/all.min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('.counter-res').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
 
 </html>
