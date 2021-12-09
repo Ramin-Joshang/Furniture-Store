@@ -20,6 +20,15 @@
     align-items: center;
 }
 
+.navbar .hamburger-btn {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+
 .navbar ul {
     display: flex;
     align-items: center;
@@ -105,11 +114,14 @@
 .header .banner {
     position: relative;
     width: 100%;
-    height: calc(100vh - 75px);
-    background-image: url(../images/slide.jpg);
+    height: calc(100% - 75px);
+    background-size: cover;
+    background: url(/images/Capture.PNG) no-repeat;
     background-size: cover;
 }
 
+
+/* 
 .banner h2 {
     position: absolute;
     font-size: 140px;
@@ -138,6 +150,7 @@
     color: #444;
     margin-right: 300px;
 }
+ */
 
 
 /* Banner */
@@ -400,3 +413,50 @@
 
 
 /* counters */
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 400px;
+    padding: 100px 0;
+    background-color: #202020;
+    color: #fff;
+}
+
+.footer .footer-content {
+    margin: auto;
+    width: 550px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin-bottom: 20px;
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+    width: 150px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.footer-content ul li {
+    font-size: 20px;
+}
+
+.footer-content .line {
+    border-bottom: 1px #000 solid;
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+/* footer */
