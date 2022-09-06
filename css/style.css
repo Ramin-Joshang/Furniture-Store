@@ -116,7 +116,7 @@
     width: 100%;
     height: calc(100% - 75px);
     background-size: cover;
-    background: url(/images/Capture.PNG) no-repeat;
+    background: url(../images/Capture.PNG) no-repeat;
     background-size: cover;
 }
 
